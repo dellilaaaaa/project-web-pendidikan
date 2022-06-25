@@ -1,0 +1,56 @@
+h1 {
+  color: rgb(40, 127, 132);
+  text-align: center;
+  margin: 10px auto;
+}
+
+form {
+  max-width: 450px;
+  margin: 40px auto;
+  background: rgb(171, 193, 193);
+  text-align: left;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+label {
+  color: rgb(16, 60, 61);
+  display: inline-block;
+  margin: 25px 0 15px;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input {
+  display: block;
+  padding: 10px 6px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  /* border-bottom: 1px solid rgb(42, 85, 86); */
+  border-radius: 5px;
+  color: black;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 15px;
+  margin: 0 10px 0 0;
+  position: relative;
+  top: 2px;
+}
+
+button {
+  margin: 25px 0 15px;
+  width: 180px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 7px;
+  background-color: rgb(42, 85, 86);
+  border: none;
+}
+.submit {
+  text-align: center;
+}
