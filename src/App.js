@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import Navbar from "./Components/navbar/navbar";
 function App() {
   return (
     <div className="App">
-      <h1>PENDIDIKAN ANAK DI ERA PANDEMI</h1>
+      <Navbar />
     </div>
   );
 }
