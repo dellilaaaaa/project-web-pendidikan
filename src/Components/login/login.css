@@ -4,7 +4,13 @@ h1 {
   margin: 10px auto;
 }
 
-form {
+h3 {
+  text-align: center;
+  color: rgb(90, 98, 99);
+  text-transform: uppercase;
+}
+
+.form {
   max-width: 450px;
   margin: 40px auto;
   background: rgb(171, 193, 193);
@@ -13,7 +19,7 @@ form {
   border-radius: 10px;
 }
 
-label {
+.title {
   color: rgb(16, 60, 61);
   display: inline-block;
   margin: 25px 0 15px;
@@ -22,7 +28,7 @@ label {
   letter-spacing: 1px;
 }
 
-input {
+.addData {
   display: block;
   padding: 10px 6px;
   width: 100%;
@@ -33,7 +39,7 @@ input {
   color: black;
 }
 
-input[type="checkbox"] {
+.addData[type="checkbox"] {
   display: inline-block;
   width: 15px;
   margin: 0 10px 0 0;
@@ -41,7 +47,7 @@ input[type="checkbox"] {
   top: 2px;
 }
 
-button {
+.join {
   margin: 25px 0 15px;
   width: 180px;
   height: 40px;

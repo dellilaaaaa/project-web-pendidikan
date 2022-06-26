@@ -4,10 +4,12 @@ import "./navbar.css";
 
 function Navigasi() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="Navbar">
       <span className="judul">SEVIMA</span>
       <div className={`nav-items ${isOpen && "open"}`}>
+        <a href="/">Home</a>
         <a href="/learning">Learning</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>

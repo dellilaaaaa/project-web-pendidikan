@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stoke&display=swap");
 
 .container {
   margin: auto;
-  color: #ffffff;
 }
 
 .row {
@@ -16,6 +16,10 @@ footer {
   padding: 20px 0;
 }
 
+.opening {
+  color: #ffffff;
+  font-family: "Stoke";
+}
 col {
   width: 25%;
   padding: 0px 15px;

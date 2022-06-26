@@ -25,34 +25,40 @@ function Login() {
   };
   return (
     <div>
-      <form>
-        <label>Name</label>
+      <form className="form">
+        <h3>daftar yuk</h3>
+        <label className="title">Name</label>
         <input
+          className="addData"
           type="text"
           name="username"
           onChange={handleUser}
           value={dataLogin.username}
         />
-        <label>Email</label>
+        <label className="title">Email</label>
         <input
+          className="addData"
           type="email"
           name="email"
           onChange={handleUser}
           value={dataLogin.email}
         />
-        <label>Password</label>
+        <label className="title">Password</label>
         <input
+          className="addData"
           type="password"
           name="password"
           onChange={handleUser}
           value={dataLogin.password}
         />
         <div className="terms">
-          <input type="checkbox" />
-          <label>Accept terms and conditions</label>
+          <input className="addData" type="checkbox" />
+          <label className="title">Accept terms and conditions</label>
         </div>
         <div className="submit">
-          <button onClick={handleSubmit}>Create</button>
+          <button className="join" onClick={handleSubmit}>
+            Create
+          </button>
         </div>
       </form>
     </div>

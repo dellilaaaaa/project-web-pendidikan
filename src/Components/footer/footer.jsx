@@ -18,8 +18,10 @@ function footerWeb() {
         <Container className="container">
           <Row xs={1} md={4} className="row g-4">
             <div>
-              <span>SEVIMA</span>
-              <h6>explore the world and achieve your dreams with sevima</h6>
+              <span className="opening">SEVIMA</span>
+              <h6 className="opening">
+                explore the world and achieve your dreams with sevima
+              </h6>
               <div className="sosmed">
                 <Link
                   to={{
