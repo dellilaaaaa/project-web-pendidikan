@@ -1,0 +1,3 @@
+backend github: https://github.com/dellilaaaaa/learning-web-server
+
+link presentasi ppt : https://drive.google.com/file/d/1HHThDSiimkJ2j7Iup3LDXjc2J8PYM7Zi/view?usp=sharing

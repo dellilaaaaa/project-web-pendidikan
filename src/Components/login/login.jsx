@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./login.css";
+import { useHistory } from "react-router-dom";
 function Login() {
+  let history = useHistory();
   let [dataLogin, setdataLogin] = useState({
     username: "",
     email: "",
@@ -17,6 +19,7 @@ function Login() {
   };
   const submitData = async () => {
     await axios.post("http://localhost:3000/user", dataLogin);
+    history.push("/");
   };
 
   const handleSubmit = (e) => {
